@@ -1,0 +1,17 @@
+Input Expression: 10 * (7*(5+6))
+Postfix Expression: 10 7 5 6 + * *
+Tree Build Successful!
+I am parent process 10397. My value is *
+I am child process 10398. My value is 10. My parent process is 10397
+I have no children. I am a leaf node process 10398. My value is 10. My parent process is 10397
+I am child process 10399. My value is *. My parent process is 10397
+I am parent process 10399. My value is *
+I am child process 10400. My value is 7. My parent process is 10399
+I have no children. I am a leaf node process 10400. My value is 7. My parent process is 10399
+I am child process 10401. My value is +. My parent process is 10399
+I am parent process 10401. My value is +
+I am child process 10402. My value is 5. My parent process is 10401
+I have no children. I am a leaf node process 10402. My value is 5. My parent process is 10401
+I am child process 10403. My value is 6. My parent process is 10401
+I have no children. I am a leaf node process 10403. My value is 6. My parent process is 10401
+Evaluated Expression = 770
